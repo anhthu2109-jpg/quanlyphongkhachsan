@@ -748,13 +748,15 @@ if page == "📊 Tổng quan":
             "💰 Doanh thu dự kiến"
         )
 
-        occupied_revenue = df[
-            df["status"] == "Đang ở"
-        ]["price"].sum()
+        c1.metric(
+    "Đang ở",
+    f"{float(occupied_revenue):,.0f} ₫"
+)
 
-        booked_revenue = df[
-            df["status"] == "Đã đặt"
-        ]["price"].sum()
+c2.metric(
+    "Đã đặt",
+    f"{float(booked_revenue):,.0f} ₫"
+)
 
         c1, c2 = st.columns(2)
 
