@@ -18,7 +18,7 @@ st.set_page_config(
 # THÔNG TIN MYSQL AIVEN
 # =========================================================
 
-MYSQL_HOST = "mysql-1cc70107-anhthutran21092005-5a1e.h.aivencloud.com "
+MYSQL_HOST = "mysql-1cc70107-anhthutran21092005-5a1e.h.aivencloud.com"
 MYSQL_PORT = 12023
 MYSQL_USER = "avnadmin"
 MYSQL_PASSWORD = "AVNS_KO5XwLUd22vzEvBne42"
