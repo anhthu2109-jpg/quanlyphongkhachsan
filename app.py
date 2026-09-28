@@ -293,6 +293,7 @@ df = load_rooms()
 if page == "📊 Tổng quan":
 
     st.title("🏨 Tổng quan khách sạn")
+    st.image("hotel.jpg", caption="Khách sạn", use_container_width=True)
     st.caption(
         f"Cập nhật lúc {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}"
     )
